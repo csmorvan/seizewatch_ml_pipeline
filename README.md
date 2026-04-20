@@ -9,7 +9,7 @@ This project is a personalized seizure-detection pipeline built from wearable he
 - Hybrid detection using deterministic rules and machine learning
 - Autoencoder-based latent representation of normal behavior
 - kNN anomaly scoring in latent space
-- Supervised calibration using caregiver seizure logs
+- Supervised calibration using annotated seizure logs
 - Final outputs of OK, WARN, and ALARM
 - Android runtime export support
 
@@ -17,7 +17,7 @@ This project is a personalized seizure-detection pipeline built from wearable he
 
 ## Pipeline Overview
 1. **Stage 1: Autoencoder**
-   Learns a patient-specific baseline from accelerometer and heart rate features.
+   Learns a user-specific baseline from accelerometer and heart rate features.
 
 2. **Stage 2: Deterministic rules**
    Scores clinically meaningful seizure-related patterns such as tonic-clonic, focal-like, and startle-like behavior.
@@ -56,4 +56,5 @@ Selected training result:
 ---
 
 ## Privacy Note
-This public repository does not include patient data, seizure logs, generated reports, or exported runtime bundles derived from private clinical data.
+This repository contains **no real patient data**.  
+All datasets used during development were either synthetic or de-identified, and no seizure logs, reports, or derived outputs are included in this repository.
