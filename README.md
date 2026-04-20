@@ -44,7 +44,6 @@ Selected training result:
 - `part2_deterministic.py` – rule-based seizure scoring
 - `part3_knn_detector.py` – latent-space anomaly scoring
 - `part4_supervised_calibrator.py` – supervised calibration layer
-- `export_android_runtime_bundle.py` – exports runtime assets for Android deployment
 
 ---
 
