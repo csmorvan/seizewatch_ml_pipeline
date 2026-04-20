@@ -45,8 +45,6 @@ Selected training result:
 - `part3_knn_detector.py` – latent-space anomaly scoring
 - `part4_supervised_calibrator.py` – supervised calibration layer
 - `export_android_runtime_bundle.py` – exports runtime assets for Android deployment
-- `CHOSEN_MODEL_CONFIG.txt` – frozen selected configuration
-- `FINAL_TRAINING_OUTCOME.txt` – final training summary
 
 ---
 
