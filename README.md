@@ -32,9 +32,9 @@ This project is a personalized seizure-detection pipeline built from wearable he
 
 ## Current Selected Configuration
 Selected training result:
-- Caregiver ALARM detection: **79.2%** of logged seizure events
-- Detection at `WARN` or higher: **95.8%**
-- Tonic-clonic ALARM recall: **100%** in holdout evaluation
+- ALARM detection: **79.2%** of logged events  
+- Detection at `WARN` or higher: **95.8%**  
+- Tonic-clonic ALARM recall: **100%** in holdout evaluation  
 
 ---
 
