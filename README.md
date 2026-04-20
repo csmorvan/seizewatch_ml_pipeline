@@ -35,6 +35,7 @@ The current frozen checkpoint is documented in `CHOSEN_MODEL_CONFIG.txt` and sum
 
 Selected training result:
 - Caregiver ALARM detection: **79.2%** of logged seizure events
+- Detection at `WARN` or higher: **95.8%**
 - Tonic-clonic ALARM recall: **100%** in holdout evaluation
 
 ---
