@@ -51,5 +51,13 @@ Selected training result:
 
 ---
 
+## Future Work
+- Additional validation on prospective data
+- Improved false-positive reduction during high activity/play
+- Separation of offline training and mobile runtime inference
+- Continued integration into Android wearable monitoring workflow
+
+---
+
 ## Privacy Note
 This public repository does not include patient data, seizure logs, generated reports, or exported runtime bundles derived from private clinical data.
