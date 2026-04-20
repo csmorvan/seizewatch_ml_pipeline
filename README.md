@@ -31,8 +31,6 @@ This project is a personalized seizure-detection pipeline built from wearable he
 ---
 
 ## Current Selected Configuration
-The current frozen checkpoint is documented in `CHOSEN_MODEL_CONFIG.txt` and summarized in `FINAL_TRAINING_OUTCOME.txt`.
-
 Selected training result:
 - Caregiver ALARM detection: **79.2%** of logged seizure events
 - Detection at `WARN` or higher: **95.8%**
